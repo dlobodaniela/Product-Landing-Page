@@ -150,7 +150,6 @@ body {
         width: 500px; 
         height: 500px;
         border: none;
-            
     }
     
     
@@ -244,20 +243,20 @@ body {
         }   
         
         ul {
-        padding-left:1px;
+          padding-left:1px;
           
         }
         
        li a {
-            padding: 13px 15px;
+         padding: 13px 15px;
                     
          } 
         
     
         .products {
-            flex-flow: column;
-            padding-top: 130px;
-            text-align: center;
+          flex-flow: column;
+          padding-top: 130px;
+          text-align: center;
                     
         }
         
@@ -265,7 +264,18 @@ body {
           width: 10vw;
         }
         
-    
+        .demo-img {
+          display: none;
+        }
+        
+        
+        .feature {
+          width: 95vw;
+          padding-top: 0;
+          padding-bottom: 0;
+        }
+        
+         
     
     
     }
