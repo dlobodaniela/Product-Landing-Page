@@ -95,14 +95,14 @@ body {
       }
       
       figure {
-        overflow: hidden;
+        overflow: hidden; 
         text-align: right;
          
-       }  
+       } 
     
-    figure > img {
+     figure > img {
         margin-bottom: -80px;
-        margin-left: -170px;
+        margin-left: -210px;
               
     }
     
@@ -231,14 +231,15 @@ body {
         }
     
         header {
-            flex-flow: wrap;
-            margin-left: 0;
+          flex-flow: column;
+          margin-left: 0;
+          width: 100vw;
     
         }
     
         
         #header-img {
-            width: 100%;
+            width: 100vw;
             
         }   
         
@@ -252,31 +253,42 @@ body {
                     
          } 
         
+        form {
+          padding-top: 180px;
+          }
+        
+        figure {
+          display: none;
+        }
+        
+        .feature {
+          width: 95vw;
+          padding-top: 120px;
+          padding-bottom: 0;
+        }
+                      
+        .demo { 
+          flex-direction : column;
+        }
+           
+        .demo-img {
+          display: none;
+        }        
     
         .products {
           flex-flow: column;
           padding-top: 130px;
-          text-align: center;
-                    
+                                               
         }
         
-        main {
-          width: 10vw;
+        .products-item {
+          width: 100vw;
+          padding-left: 0;
+          padding-right: 0;
+                                 
         }
         
-        .demo-img {
-          display: none;
-        }
-        
-        
-        .feature {
-          width: 95vw;
-          padding-top: 0;
-          padding-bottom: 0;
-        }
-        
-         
-    
+            
     
     }
     
